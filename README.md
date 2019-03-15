@@ -21,8 +21,10 @@ This application will let user know their age based on planet's solar years.
   Input: 19
   Output: 1.6
 * Determines how many years a user has left to live on each planet.
-  Input: 
+  Input:
   Output:
+##### Research
+* [](http://freerangestats.info/blog/2018/05/31/life-expectancy);
 
 ## Setup/Installation Requirements
 

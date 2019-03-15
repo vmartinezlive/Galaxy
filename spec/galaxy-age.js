@@ -4,18 +4,26 @@ describe ("galaxyAge",function() {
 
   it('should test your age in Mercury Years',
 function() {
-    var checkMeruryYears = new GalaxyAge(79.16, 100);
+    var checkMeruryYears = new GalaxyAge(79.16);
     expect(checkMeruryYears.mercuryAge).toEqual(true)
 });
 
   it('should test your age in Venus Years',
   function() {
-  expect(checkVenusYear.venusAge()).toEqual(30.64)
+    var checkVenusYears = new GalaxyAge(30.64)
+    expect(checkVenusYear.venusAge()).toEqual(true)
   });
 
   it('should test your age in Mars Year',
   function() {
-  expect(checkYear.leapYear()).toEqual(30.64)
+    var checkMarsYears = new GalaxyAge(10.11)
+    expect(checkMarsYear.marsYear()).toEqual(true)
+  });
+
+  it('should test your age in Mars Year',
+  function() {
+    var checkJupiterYears = new GalaxyAge(10.11)
+    expect(checkJupiterYear.jupiterYear()).toEqual(true)
   });
 
   it('should test average lifespan in Mercury Year',
