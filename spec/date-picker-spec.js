@@ -4,33 +4,34 @@ describe ("galaxyAge",function() {
 
   it('should test your age in Mercury Year',
 function() {
-    expect(checkYear.leapYear()).toEqual(true)
+    let mercuryAge = new Age(195.8);
+    expect(checkMeruryYears.mercuryY()).toEqual(195.8)
 });
 
-it('should test your age in Venus Year',
-function() {
-expect(checkYear.leapYear()).toEqual(true)
-});
-
-it('should test your age in Mars Year',
-function() {
-expect(checkYear.leapYear()).toEqual(true)
-});
-
-it('should test average lifespan in Mercury Year',
-function() {
-expect(checkYear.leapYear()).toEqual(true)
-});
-
-it('should test average lifespan in Venus Year',
-function() {
-expect(checkYear.leapYear()).toEqual(true)
-});
-
-it('should test average lifespan in Mars Year',
-function() {
-expect(checkYear.leapYear()).toEqual(true)
-});
+// it('should test your age in Venus Year',
+// function() {
+// expect(checkYear.leapYear()).toEqual(true)
+// });
+//
+// it('should test your age in Mars Year',
+// function() {
+// expect(checkYear.leapYear()).toEqual(true)
+// });
+//
+// it('should test average lifespan in Mercury Year',
+// function() {
+// expect(checkYear.leapYear()).toEqual(true)
+// });
+//
+// it('should test average lifespan in Venus Year',
+// function() {
+// expect(checkYear.leapYear()).toEqual(true)
+// });
+//
+// it('should test average lifespan in Mars Year',
+// function() {
+// expect(checkYear.leapYear()).toEqual(true)
+// });
 
 //   const grooveDate= "2019-03-22";
 //   const datePicker= new DayPicker();

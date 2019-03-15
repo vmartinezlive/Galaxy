@@ -6,13 +6,14 @@ import {GalaxyAge} from "./scripts.js";
 
 
 $(document).ready(function(){
-  $("#dateForm").submit(function(event){
-  event.preventDefault();
-  const grooveDate=  $("#dateInput").val();
-  console.log(grooveDate);
-  const datePicker= new GalaxyAge();
-  const theObject= galaxyAge.stringToObject(grooveDate);
-  const dateOfweek= galaxyAge.findDay();
-  $(".result").text(dateOfweek);
-  });
-});
+  $()
+//   $("#dateForm").submit(function(event){
+//   event.preventDefault();
+//   const grooveDate=  $("#dateInput").val();
+//   console.log(grooveDate);
+//   const datePicker= new GalaxyAge();
+//   const theObject= galaxyAge.stringToObject(grooveDate);
+//   const dateOfweek= galaxyAge.findDay();
+//   $(".result").text(dateOfweek);
+//   });
+// });

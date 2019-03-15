@@ -1,20 +1,13 @@
-export class GalaxyAge{day, month
-  constructor(){
-    this.day = day;
-    this.year = year;
+export class GalaxyAge {
+  constructor(age, life){
+    this.age = age;
+    this.life = life(100);
   }
 
-  stringToObject(string){
-    const parseDate= Date.parse(string);
-    const dateObj= new Date(parseDate);
-    this.dateObject=dateObj;
-
+  checkMercuryYears(){
+    let mercuryAge = (this.age / .24 );
+    return mecruryAge
   }
 
-  findDay(){
-    const numberDay=this.dateObject.getDay();
-    const day=this.dayArray[numberDay+1];
-    return day;
-  }
 
 }
