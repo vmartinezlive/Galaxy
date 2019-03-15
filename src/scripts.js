@@ -1,7 +1,7 @@
-export class DayPicker{
+export class GalaxyAge{day, month
   constructor(){
-    this.dateObject;
-    this.dayArray=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+    this.day = day;
+    this.year = year;
   }
 
   stringToObject(string){
