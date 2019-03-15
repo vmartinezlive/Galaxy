@@ -6,14 +6,29 @@ import {GalaxyAge} from "./scripts.js";
 
 
 $(document).ready(function(){
-  $()
-//   $("#dateForm").submit(function(event){
-//   event.preventDefault();
-//   const grooveDate=  $("#dateInput").val();
-//   console.log(grooveDate);
-//   const datePicker= new GalaxyAge();
-//   const theObject= galaxyAge.stringToObject(grooveDate);
-//   const dateOfweek= galaxyAge.findDay();
-//   $(".result").text(dateOfweek);
-//   });
-// });
+  $("form#input-age").submit(function(event) {
+      event.preventDefault();
+      function combine(month, day, year) {
+        const stuff = month + ", " + day + ", " + year
+        return stuff;
+      }
+      function getWeekDay(day) {
+        var dayOf = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        var blah = dayOf[day]
+        return blah;
+      }
+
+      var newMonth = $("input#month").val();
+      var newDay = parseInt($("input#day").val());
+      var newYear = parseInt($("input#year").val());
+
+      const newCombine = combine(newMonth, newDay, newYear);
+      const newFormula = new Date(newCombine);
+      const newDayWeek = newFormula.getDay();
+      const result = getWeekDay(newDayWeek);
+
+
+
+      $("#result").text(result);
+    });
+  });
