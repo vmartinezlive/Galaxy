@@ -9,19 +9,19 @@
 This application will let user know their age based on planet's solar years.
 
 * Returns their age in Mercury years. (A Mercury year is .24 Earth years.)
-  Input:
-  Output:
+  Input: 19
+  Output: 79.16
 * Returns their age in Venus years. (A Venus year is .62 Earth years.)
-  Input:
-  Output:
+  Input: 19
+  Output: 30.64
 * Returns their age in Mars years. (A Mars year is 1.88 Earth years.)
-  Input:
-  Output:
+  Input: 19
+  Output: 10.1
 * Returns their age in Jupiter years. (A Jupiter year is 11.86 Earth years.)
-  Input:
-  Output:
+  Input: 19
+  Output: 1.6
 * Determines how many years a user has left to live on each planet.
-  Input:
+  Input: 
   Output:
 
 ## Setup/Installation Requirements

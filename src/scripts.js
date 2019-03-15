@@ -5,9 +5,18 @@ export class GalaxyAge {
   }
 
   checkMercuryYears(){
-    let mercuryAge = (this.age / .24 );
-    return mecruryAge
-  }
+    let age = this.age;
+    const marcuryAge = function() { return this.age / .24 }
+    }
 
+  checkVenusYears(){
+    let age = this.age;
+    const venusAge = function() { return this.age / .62 }
+    }
+
+  checkVenusYears(){
+    let age = this.age;
+    const marsAge = function() { return this.age / 1.88 }
+    }
 
 }
