@@ -1,25 +1,25 @@
 export class GalaxyAge {
   constructor(age){
-    this.age = 0;
-    this.gender {
+    this.age = 0,
+    this.gender = {
       "female": 120,
       "male": 100
-      }
+    };
     }
   }
 
-  checkMercuryYears(){
-    let age = this.age;
-    const mercuryAge = function() { return this.age / .24 };
-    let gender = function() {
-      if (gender === female) {
-        const femaleLifeExpectancy =function() this.gender[female] /.24)
-      }
-      else (gender === male) {
-        const maleLifeExpectancy = function() this.gender[male] /.24)
-      }
-    };
-    let mercuryOutput [];
+  checkMercuryYears(age, gender) {
+    const mercF = 120 / .24;
+    const mercM = 100 / .24;
+    const mercuryAge =  age / .24;
+    if (gender === "female") {
+      const femaleLifeExpectancy = mercF - mercuryAge;
+      return femaleLifeExpectency;
+    }
+    else (gender === "male") {
+      const maleLifeExpectancy = mercM - mercuryAge;
+      return maleLifeExpectancy;
+    }
 
     if (gender === female) {
       mercuryOutput.push("if you are" + age + "in earth. But, you are " + mercuryAge + ("in Mercury. And your have " femaleLifeExpectancy + "more mercury years to live."));
@@ -27,7 +27,7 @@ export class GalaxyAge {
     else (gender === male) {
       mercuryOutput.push("if you are" + age + "in earth. But, you are " + mercuryAge + ("in Mercury. And your have " maleLifeExpectancy + "more mercury years to live."));
     }
-  }
+  };
 
   checkVenusYears(){
     let age = this.age;
@@ -48,7 +48,7 @@ export class GalaxyAge {
     else (gender === male) {
       venusOutput.push("if you are" + age + "in earth. But, you are " + venusAge + ("in Mercury. And your have " maleLifeExpectancy + "more mercury years to live."));
     }
-  }
+  };
 
   checkMarsYears(){
     let age = this.age;
@@ -60,7 +60,7 @@ export class GalaxyAge {
       else (gender === male) {
         const maleLifeExpectancy = function() this.gender[male] /1.88)
       }
-    };
+    }
     let marsOutput [];
 
     if (gender === female) {
@@ -81,7 +81,7 @@ export class GalaxyAge {
       else (gender === male) {
         const maleLifeExpectancy = function() this.gender[male] /11.86)
       }
-    };
+    }
     let jupiterOutput [];
 
     if (gender === female) {
