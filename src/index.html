@@ -5,7 +5,8 @@
     <title>Galaxy Age</title>
   </head>
   <body>
-    <h1></h1>
+    <h1>Find your age based on planet's solar years:</h1>
+    <p>You will learn your current age and life expectancy on a choosen planet.</p>
     <form id="input-age">
       <div class="form-group">
         <label for="age">Enter Age</label>
@@ -15,6 +16,15 @@
       <div class="gender">
         <input type="radio" name="gender" value="male"> Male<br>
         <input type="radio" name="gender" value="female"> Female<br>
+      </div>
+      <div class="form-group">
+        <label for="planet">Choose a Planet:</label>
+        <select class="form-control" id="planet" name="planet">
+          <option value="mercury">Mercury</option>
+          <option value="venus">Venus</option>
+          <option value="mars">Mars</option>
+          <option value="jupiter">Jupiter</option>
+        </select>
       </div>
       <button type="submit" class="btn btn-primary">Submit!</button>
     </form>
