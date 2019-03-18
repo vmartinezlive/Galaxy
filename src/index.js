@@ -9,7 +9,8 @@ $(document).ready(function(){
   $("form#input-age").submit(function(event) {
       event.preventDefault();
       const inputAge =  $("id#age").val();
-      const userGalaxyAge = new GalaxyAge();
+      let inputGender = $("input:radio[name=gender]:checked").val();
+      let inputPlanet = $("select#planet").val();
       $("#result").text(userGalaxyAge);
     });
   });
