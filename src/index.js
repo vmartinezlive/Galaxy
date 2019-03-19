@@ -8,9 +8,11 @@ import {GalaxyAge} from "./scripts.js";
 // $(document).ready(function(){
 //   $("form#input-age").submit(function(event) {
 //       event.preventDefault();
-//       const inputAge =  $("id#age").val();
+//       const inputAge =  $("id#dob").val();
 //       let inputGender = $("input:radio[name=gender]:checked").val();
 //       let inputPlanet = $("select#planet").val();
 //       $("#result").text(userGalaxyAge);
+//
+//
 //     });
 //   });

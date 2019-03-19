@@ -2,12 +2,19 @@ export class GalaxyAge {
   constructor(age){
     this.age = age
   }
+ 
+  function earthAge(birthdate) {
+    const inputDate = new Date(birthdate);
+    const currentAge = new Date
+    let age = currentAge - inputDate
+
+  }
 
 
   checkMercuryYears(age, gender){
     const mercF = 120 / .24;
     const mercM = 100 / .24;
-    const mercuryAge =  age / .24;
+    const mercuryAge = this.age / .24;
     if (gender === "female"){
       const femaleLifeExpectancy = mercF - mercuryAge;
       const merFemaleOutput = ("You are " + mercuryAge + ("in Mercury. And your have "  + femaleLifeExpectancy + "more mercury years to live."));
@@ -23,7 +30,7 @@ export class GalaxyAge {
   checkVenusYears(age,gender){
     const venusF = 120 / .62;
     const venusM = 100 / .62;
-    const venusAge =  age / .62;
+    const venusAge =  this.age / .62;
     if (gender === "female"){
       const femaleLifeExpectancy = venusF - venusAge;
       const venusFemaleOutput = ("You are " + venusAge + "in Venus. And your have " + femaleLifeExpectancy + "more venus years to live.");
@@ -39,7 +46,7 @@ export class GalaxyAge {
   checkMarsYears(age,gender){
     const marsF = 120 / 1.88;
     const marsM = 100 / 1.88;
-    const marsAge =  age / 1.88;
+    const marsAge = this.age / 1.88;
     if (gender === "female") {
       const femaleLifeExpectancy = marsF - marsAge;
       const marsFemaleOutput = ("You are " + marsAge + "in Mars. And your have " + femaleLifeExpectancy + "more mars years to live.");
@@ -55,7 +62,7 @@ export class GalaxyAge {
   checkJupiterYears(age,gender){
     const jupiterF = 120 / 11.86;
     const jupiterM = 100 / 11.86;
-    const jupiterAge =  age / 11.86;
+    const jupiterAge =  this.age / 11.86;
     if (gender === "female") {
       const femaleLifeExpectancy = jupiterF - jupiterAge;
       const jupiterFemaleOutput = ("You are " + jupiterAge + "in Jupiter. And your have " + femaleLifeExpectancy + "more jupiter years to live.");
@@ -67,10 +74,4 @@ export class GalaxyAge {
       return jupiterMaleOutput;
     }
   }
-}
-
-function earthAge(birthdate) {
-  const inputDate = new Date(birthdate);
-  const 
-
 }
