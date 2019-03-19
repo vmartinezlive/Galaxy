@@ -8,86 +8,65 @@ export class GalaxyAge {
     }
   }
 
-  checkMercuryYears(age, gender) {
+  checkMercuryYears(age, gender); {
     const mercF = 120 / .24;
     const mercM = 100 / .24;
     const mercuryAge =  age / .24;
-    if (gender === "female") {
+    if (gender === "female"){
       const femaleLifeExpectancy = mercF - mercuryAge;
-      return femaleLifeExpectency;
+      const merFemaleOutput = ("You are " + mercuryAge + ("in Mercury. And your have "  + femaleLifeExpectancy + "more mercury years to live."));
+      return merFemaleOutput;
     }
-    else (gender === "male") {
+    else if (gender === "male") {
       const maleLifeExpectancy = mercM - mercuryAge;
-      return maleLifeExpectancy;
-    }
-
-    if (gender === female) {
-      mercuryOutput.push("if you are" + age + "in earth. But, you are " + mercuryAge + ("in Mercury. And your have " femaleLifeExpectancy + "more mercury years to live."));
-    }
-    else (gender === male) {
-      mercuryOutput.push("if you are" + age + "in earth. But, you are " + mercuryAge + ("in Mercury. And your have " maleLifeExpectancy + "more mercury years to live."));
-    }
-  };
+      const merMaleOutput = ("You are " + mercuryAge + "in Mercury. And your have " maleLifeExpectancy + "more mercury years to live."));
+      return merMaleOutput;
+    },
 
   checkVenusYears(){
-    let age = this.age;
-    const venusAge = function() { return this.age / .62 };
-    let gender = function() {
-      if (gender === female) {
-        const femaleLifeExpectancy =function() this.gender[female] /.62)
-      }
-      else (gender === male) {
-        const maleLifeExpectancy = function() this.gender[male] /.62)
-      }
-    };
-    let venusOutput [];
-
-    if (gender === female) {
-      venusOutput.push("if you are" + age + "in earth. But, you are " + venusAge + ("in Mercury. And your have " femaleLifeExpectancy + "more mercury years to live."));
+    const venusF = 120 / .62;
+    const venusM = 100 / .62;
+    const venusAge =  age / .62;
+    if (gender === "female"){
+      const femaleLifeExpectancy = venusF - venusAge;
+      const venusFemaleOutput = ("You are " + venusAge + ("in Venus. And your have " femaleLifeExpectancy + "more venus years to live."));
+      return venusFemaleOutput;
     }
-    else (gender === male) {
-      venusOutput.push("if you are" + age + "in earth. But, you are " + venusAge + ("in Mercury. And your have " maleLifeExpectancy + "more mercury years to live."));
+    else if (gender === "male") {
+      const maleLifeExpectancy = venusM - venusAge;
+      const venusMaleOutput = ("You are " + venusAge + "in Venus. And your have " maleLifeExpectancy + "more venus years to live."));
+      return venusMaleOutput;
     }
-  };
+  }
 
   checkMarsYears(){
-    let age = this.age;
-    const marsAge = function() { return this.age / 1.88 };
-    let gender = function() {
-      if (gender === female) {
-        const femaleLifeExpectancy =function() this.gender[female] /1.88)
-      }
-      else (gender === male) {
-        const maleLifeExpectancy = function() this.gender[male] /1.88)
-      }
+    const marsF = 120 / 1.88;
+    const marsM = 100 / 1.88;
+    const marsAge =  age / 1.88;
+    if (gender === "female") {
+      const femaleLifeExpectancy = marsF - marsAge;
+      const marsFemaleOutput = ("You are " + marsAge + ("in Mars. And your have " femaleLifeExpectancy + "more mars years to live."));
+      return marsFemaleOutput;
     }
-    let marsOutput [];
-
-    if (gender === female) {
-      marsOutput.push("if you are" + age + "in earth. But, you are " + marsAge + ("in Mercury. And your have " femaleLifeExpectancy + "more mercury years to live."));
-    }
-    else (gender === male) {
-      marsOutput.push("if you are" + age + "in earth. But, you are " + marsAge + ("in Mercury. And your have " maleLifeExpectancy + "more mercury years to live."));
+    else if (gender === "male") {
+      const maleLifeExpectancy = marsM - marsAge;
+      const marsMaleOutput = ("You are " + marsAge + "in Mars. And your have " maleLifeExpectancy + "more mars years to live."));
+      return marsMaleOutput;
     }
   }
 
   checkJupiterYears(){
-    let age = this.age;
-    const jupiterAge = function() { return this.age / 11.86 };
-    let gender = function() {
-      if (gender === female) {
-        const femaleLifeExpectancy =function() this.gender[female] /11.86)
-      }
-      else (gender === male) {
-        const maleLifeExpectancy = function() this.gender[male] /11.86)
-      }
+    const jupiterF = 120 / 11.86;
+    const jupiterM = 100 / 11.86;
+    const jupiterAge =  age / 11.86;
+    if (gender === "female") {
+      const femaleLifeExpectancy = jupiterF - jupiterAge;
+      const jupiterFemaleOutput = ("You are " + jupiterAge + ("in Jupiter. And your have " femaleLifeExpectancy + "more jupiter years to live."));
+      return jupiterFemaleOutput;
     }
-    let jupiterOutput [];
-
-    if (gender === female) {
-      jupiterOutput.push("if you are" + age + "in earth. But, you are " + jupiterAge + ("in Mercury. And your have " femaleLifeExpectancy + "more mercury years to live."));
-    }
-    else (gender === male) {
-      jupiterOutput.push("if you are" + age + "in earth. But, you are " + jupiterAge + ("in Mercury. And your have " maleLifeExpectancy + "more mercury years to live."));
+    else if (gender === "male") {
+      const maleLifeExpectancy = jupiterM - jupiterAge;
+      const jupiterMaleOutput = ("You are " + jupiterAge + "in Jupiter. And your have " maleLifeExpectancy + "more jupiter years to live."));
+      return jupiterMaleOutput;
     }
   }
