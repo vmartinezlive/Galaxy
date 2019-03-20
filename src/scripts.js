@@ -2,15 +2,12 @@ export class GalaxyAge {
   constructor(age){
     this.age = age
   }
- 
-  function earthAge(birthdate) {
-    const inputDate = new Date(birthdate);
-    const currentAge = new Date
-    let age = currentAge - inputDate
 
+  checkEarthAge(age) {
+    let inputDob = new Date
+    let currentAge = new Date
+    age = currentAge - inputDob
   }
-
-
   checkMercuryYears(age, gender){
     const mercF = 120 / .24;
     const mercM = 100 / .24;
