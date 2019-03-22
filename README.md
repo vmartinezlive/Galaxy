@@ -39,7 +39,7 @@ This application will let user know their age based on planet's solar years.
 
 ## Setup/Installation Requirements
 
-* Go to GitHub and clone [](https://github.com/vmartinezlive/Galaxy) project. Use project url to clone project.
+* Go to GitHub and clone []https://github.com/vmartinezlive/Galaxy project. Use project url to clone project.
 * run npm install to install dependencies
 * run npm run start to build and start the dev server
 * run npm test to run the unit tests with Karma and Jasmiine.  Use localhost:9876 to view tests.
