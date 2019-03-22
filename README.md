@@ -8,29 +8,41 @@
 
 This application will let user know their age based on planet's solar years.
 
-* Returns their age in Mercury years. (A Mercury year is .24 Earth years.)
+* Returns users age on Earth
+  Input: 01/10/2000
+  Output: 19
+* Returns users age in Mercury years. (A Mercury year is .24 Earth years.)
   Input: 19
   Output: 79.16
+* Returns users life expectancy in Mercury.
+  Input: genderAge(f:120/m:100) - MercuryAge
+  Output: mercury expectancy age
 * Returns their age in Venus years. (A Venus year is .62 Earth years.)
   Input: 19
-  Output: 30.64
+  Output: 31
+* Returns users life expectancy in Venus.
+  Input: genderAge(f:120/m:100) - VenusAge
+  Output: venus expectancy age
 * Returns their age in Mars years. (A Mars year is 1.88 Earth years.)
   Input: 19
   Output: 10.1
+* Returns users life expectancy in Mars.
+  Input: genderAge(f:120/m:100) - MarsAge
+  Output: mars expectancy age
 * Returns their age in Jupiter years. (A Jupiter year is 11.86 Earth years.)
   Input: 19
   Output: 1.6
-* Determines how many years a user has left to live on each planet.
-  Input:
-  Output:
-##### Research
-* [](http://freerangestats.info/blog/2018/05/31/life-expectancy);
+* Returns users life expectancy in Jupiter.
+  Input: genderAge(f:120/m:100) - JupiterAge
+  Output: jupiter expectancy age
+
 
 ## Setup/Installation Requirements
 
-* Clone project from github:
-* run npm install to your terminal
-* run npm run start
+* Go to GitHub and clone [](https://github.com/vmartinezlive/Galaxy) project. Use project url to clone project.
+* run npm install to install dependencies
+* run npm run start to build and start the dev server
+* run npm test to run the unit tests with Karma and Jasmiine.  Use localhost:9876 to view tests.
 
 
 ## Known Bugs
@@ -42,6 +54,14 @@ There are no known issues.
 For question or issues, contact vmartinez72@live.com
 
 ## Technologies Used
+
+* JavaScript
+* Node.js
+* jQuery
+* Bootstrap
+* Webpack
+* Jasmine
+* Karma
 
 
 ### License
